@@ -1,5 +1,60 @@
 // SCSS Document
 
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
-  background: #000;
+  background: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper-top {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#wrapper-nav {
+  text-align: center;
+  margin-top: -5%;
+}
+
+#name {
+  font: 225% 'Bungee', cursive;
+  display: block;
+}
+
+#content {
+  font: 150% 'Raleway', sans-serif;
+  display: block;
+  margin: 0% 20%;
+}
+
+#nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    overflow: hidden;
+
+    li {
+      display: inline-block;
+      background: #AFD5F7;
+      padding: 0;
+      margin: .3%;
+  
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        font: 145% 'Slabo 27px', serif;
+        padding: 30px 60px;
+      }
+      
+      a:hover {
+        background: #7DABD4;
+      }
+    }
+  }
 }
