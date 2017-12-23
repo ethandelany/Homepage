@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:300i");
+body {
+  background: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper-top {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#wrapper-nav {
+  text-align: center;
+  margin-top: -1.5%;
+}
+
+#name {
+  font: 225% 'Bungee', cursive;
+  display: block;
+}
+
+#description {
+  font: 300% 'Merriweather Sans', sans-serif;
+  display: block;
+  margin-top: -5%;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  overflow: hidden;
+}
+#nav ul li {
+  display: inline-block;
+  background: #AFD5F7;
+  padding: 0;
+  margin: .3%;
+}
+#nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font: 145% 'Slabo 27px', serif;
+  padding: 30px 60px;
+}
+#nav ul li a:hover {
+  background: #7DABD4;
+}
