@@ -8,7 +8,7 @@
 
 <body>
   Hi <?php
-  echo htmlspecialchars($_PUT['fname']);
+  echo htmlspecialchars($_POST['fname']);
   ?>
 </body>
 </html>
