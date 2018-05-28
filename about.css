@@ -53,8 +53,8 @@ body {
 }
 
 #wrapper-img {
-  display: block;
   text-align: center;
+  margin-top: 5%;
 }
 
 #dante-cert {
