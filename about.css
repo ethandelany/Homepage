@@ -50,3 +50,10 @@ body {
 #nav ul li a:hover {
   background: #7DABD4;
 }
+
+#dante-cert {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
