@@ -52,10 +52,12 @@ body {
   background: #7DABD4;
 }
 
+#wrapper-img {
+  display: block;
+  text-align: center;
+}
+
 #dante-cert {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
-  text-align: center;
 }
