@@ -23,8 +23,9 @@ body {
 }
 
 #content {
-  margin: 0;
-  text-align: center;
+  font: 150% 'Raleway', sans-serif;
+  display: block;
+  margin: 0% 20%;
 }
 
 #nav ul {
@@ -34,12 +35,14 @@ body {
   border: none;
   overflow: hidden;
 }
+
 #nav ul li {
   display: inline-block;
   background: #AFD5F7;
   padding: 0;
   margin: .3%;
 }
+
 #nav ul li a {
   display: inline-block;
   text-decoration: none;
@@ -47,6 +50,7 @@ body {
   font: 145% 'Slabo 27px', serif;
   padding: 30px 60px;
 }
+
 #nav ul li a:hover {
   background: #7DABD4;
 }
